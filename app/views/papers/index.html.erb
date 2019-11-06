@@ -18,6 +18,7 @@
         <td><%= paper.title %></td>
         <td><%= paper.venue %></td>
         <td><%= paper.year %></td>
+        <td><%= paper.authors.name %>
         <td><%= link_to 'Show', paper %></td>
         <td><%= link_to 'Edit', edit_paper_path(paper) %></td>
         <td><%= link_to 'Destroy', paper, method: :delete, data: { confirm: 'Are you sure?' } %></td>

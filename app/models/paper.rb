@@ -7,4 +7,5 @@ class Paper < ApplicationRecord
   validates :year, presence: true,
             numericality: true
 
+
 end
