@@ -9,5 +9,4 @@ class Paper < ApplicationRecord
 
   scope :year, ->(year) {where("year = ?", year)}
 
-
 end
