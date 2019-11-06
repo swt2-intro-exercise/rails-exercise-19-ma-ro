@@ -7,5 +7,7 @@ class Paper < ApplicationRecord
   validates :year, presence: true,
             numericality: true
 
+  scope :year, ->(year) {where("year = ?", year)}
+
 
 end
