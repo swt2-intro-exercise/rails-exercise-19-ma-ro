@@ -7,7 +7,7 @@ describe "New author page", type: :feature do
     fill_in "author[first_name]",  with: "Test_First"
     fill_in "author[last_name]", with: "Test_Last"
     fill_in "author[homepage]", with: "Test.Homepage"
-    click_on "Save Author"
+    click_on "Create Author"
     click_on "Edit"
     fill_in "author[last_name]", with: "Test_Last_change"
     click_on "Update Author"
